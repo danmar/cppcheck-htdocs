@@ -32,7 +32,7 @@ if (!test("-f", jshintBin)) {
     exit(1);
 }
 
-if (exec("node" + " " + jshintBin + " " + "make.js run-tests.js site/js/github.js").code !== 0) {
+if (exec("node " + jshintBin + " make.js run-tests.js site/js/github.js").code !== 0) {
     echo("*** JSHint failed! (return code != 0)");
     echo();
 } else {
@@ -52,8 +52,8 @@ if (!test("-f", csslintBin)) {
 }
 
 // csslint doesn't return proper error codes...
-/*if (exec("node" + " " + csslintBin + " " + "css/all.css").code !== 0) {
+/*if (exec("node " + csslintBin + " css/all.css").code !== 0) {
     echo("*** csslint failed! (return code != 0)");
     echo();
 }*/
-exec("node" + " " + csslintBin + " " + "site/css/all.css");
+exec("node " + csslintBin + " site/css/all.css");
