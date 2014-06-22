@@ -117,7 +117,7 @@ PVS-Studio is commercial, however there is a free trial.</p>
 
 <h2 id="support">Support</h2>
 <ul>
-  <li>Use <a href="http://sourceforge.net/apps/trac/cppcheck/">Trac</a> to report
+  <li>Use <a href="http://5.150.254.56:8001/trac-cppcheck/">Trac</a> to report
   bugs and feature requests</li>
   <li>Ask questions in the <a href="http://sourceforge.net/apps/phpbb/cppcheck/">discussion forum</a>
   or at the IRC channel <a href="irc://irc.freenode.net/#cppcheck">#cppcheck</a></li>
@@ -129,14 +129,14 @@ PVS-Studio is commercial, however there is a free trial.</p>
 <dl>
   <dt>Testing</dt>
   <dd>Pick a project and test it's source with latest version. Write tickets to
-  <a href="http://sourceforge.net/apps/trac/cppcheck/">Trac</a> about issues you
+  <a href="http://5.150.254.56:8001/trac-cppcheck/">Trac</a> about issues you
   find from Cppcheck. If you test open source projects and write bug reports to
   them, check the issues in the “<a href="http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Found_bugs">Found bugs</a>”
   wiki section, and write links to the bug reports you have created e.g. to our
   <a href="http://sourceforge.net/apps/phpbb/cppcheck/">forum</a>, so we can keep
   a track about them.</dd>
   <dt>Developing</dt>
-  <dd>Pick a ticket from <a href="http://sourceforge.net/apps/trac/cppcheck/">Trac</a>,
+  <dd>Pick a ticket from <a href="http://5.150.254.56:8001/trac-cppcheck/">Trac</a>,
   write a test case for it (and write a comment to the ticket that test case has
   been created). Or pick a test case that fails and try to fix it. Make a patch
   and submit it to Trac either inline if it is small, or attach it as a file.</dd>
@@ -144,7 +144,7 @@ PVS-Studio is commercial, however there is a free trial.</p>
   <dd>Write articles, reviews or tell your friends about us. The more users we
   have, the more people we have testing and the better we can become.</dd>
   <dt>Design</dt>
-  <dd>Invent new good checks and create tickets to <a href="http://sourceforge.net/apps/trac/cppcheck/">Trac</a>
+  <dd>Invent new good checks and create tickets to <a href="http://5.150.254.56:8001/trac-cppcheck/">Trac</a>
   about them.</dd>
   <dt>Integration</dt>
   <dd>Write a plugin to your favorite IDE or create a package for your distribution

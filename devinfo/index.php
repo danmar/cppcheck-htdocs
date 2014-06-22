@@ -9,7 +9,7 @@
   <link rel="alternate" type="application/atom+xml" title="Recent Commits to cppcheck:master"
         href="https://github.com/danmar/cppcheck/commits/master.atom" />
   <link rel="alternate" type="application/atom+xml" title="Trac Timeline"
-        href="http://sourceforge.net/apps/trac/cppcheck/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
+        href="http://5.150.254.56:8001/trac-cppcheck/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
   <script type="text/javascript">
     //<![CDATA[
@@ -73,7 +73,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   require '../site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/apps/trac/cppcheck/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
+  $feed->set_feed_url('http://5.150.254.56:8001/trac-cppcheck/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
   $feed->set_cache_location('../site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -87,7 +87,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://sourceforge.net/apps/trac/cppcheck/timeline">View complete Trac timeline&hellip;</a></p>
+<p><a href="http://5.150.254.56:8001/trac-cppcheck/timeline">View complete Trac timeline&hellip;</a></p>
 <h2 id="active-forum-topics">Active Forum Topics</h2>
 <?php
   require '../site/activetopics.php';
