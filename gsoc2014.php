@@ -20,8 +20,6 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://sourceforge.net/apps/mediawiki/cppcheck/">Wiki</a></li>
-      <li><a href="http://sourceforge.net/apps/phpbb/cppcheck/">Forum</a></li>
       <li><a href="http://5.150.254.56:443/trac-cppcheck/">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><a href="/demo/">Online Demo</a></li>
