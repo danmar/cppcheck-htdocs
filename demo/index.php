@@ -56,7 +56,7 @@ void f()
 }
 </textarea><br />
 <input type="submit" value="Check" />
-<label><input type="checkbox" name="xml" value="1" />XML output</label></p>
+</p>
 </form>
 <h3>Examples</h3>
 <p>This code can be copied and pasted in the edit box above.</p>
