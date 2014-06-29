@@ -34,7 +34,7 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="http://5.150.254.56:8001/trac-cppcheck/">Issues</a></li>
+      <li><a href="http://5.150.254.56:443/trac-cppcheck/">Issues</a></li>
       <li><strong><a href="/devinfo/" title="Developer Information">Developer Info</a></strong></li>
       <li><a href="/demo/">Online Demo</a></li>
       <li><a href="http://sourceforge.net/projects/cppcheck/">Project page</a></li>
@@ -71,7 +71,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   require '../site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://5.150.254.56:8001/trac-cppcheck/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
+  $feed->set_feed_url('http://5.150.254.56:443/trac-cppcheck/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
   $feed->set_cache_location('../site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -85,7 +85,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://5.150.254.56:8001/trac-cppcheck/timeline">View complete Trac timeline&hellip;</a></p>
+<p><a href="http://5.150.254.56:443/trac-cppcheck/timeline">View complete Trac timeline&hellip;</a></p>
 <h2 id="active-forum-topics">Active Forum Topics</h2>
 <?php
   require '../site/activetopics.php';
