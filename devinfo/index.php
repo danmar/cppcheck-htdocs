@@ -86,7 +86,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://5.150.254.56:443/trac-cppcheck/timeline">View complete Trac timeline&hellip;</a></p>
+<p><a href="http://trac.cppcheck.net/timeline">View complete Trac timeline&hellip;</a></p>
 <h2 id="active-forum-topics">Active Forum Topics</h2>
 <?php
   require '../site/activetopics.php';
