@@ -74,7 +74,7 @@ as a plugin for your favorite IDE:</p>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="http://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Mercurial (Linux)</strong> - <a href="http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Mercurialhook">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
-  <li><strong>Tortoise SVN</strong> - <a href="http://sourceforge.net/apps/mediawiki/cppcheck/index.php?title=Tortoisesvn">Adding a pre-commit hook script</a></li>
+  <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
 </ul>
 
