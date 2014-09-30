@@ -26,7 +26,7 @@ uninitialized variables, unused functions" />
   <div class="wrap">
     <ul>
       <li><strong><a href="/">Home</a></strong></li>
-      <li><a href="/wiki/">Wiki</a></li>
+      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
       <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
       <li><a href="http://trac.cppcheck.net">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>

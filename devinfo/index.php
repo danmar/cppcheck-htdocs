@@ -34,7 +34,7 @@
   <div class="wrap">
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/wiki/">Wiki</a></li>
+      <li><a href="http://sourceforge.net/p/cppcheck/wiki/">Wiki</a></li>
       <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
       <li><a href="http://trac.cppcheck.net">Issues</a></li>
       <li><strong><a href="/devinfo/" title="Developer Information">Developer Info</a></strong></li>
