@@ -35,7 +35,7 @@
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/wiki/">Wiki</a></li>
-      <li><a href="/forum/">Forum</a></li>
+      <li><a href="http://sourceforge.net/p/cppcheck/discussion/">Forum</a></li>
       <li><a href="http://trac.cppcheck.net">Issues</a></li>
       <li><a href="/devinfo/" title="Developer Information">Developer Info</a></li>
       <li><strong><a href="/demo/">Online Demo</a></strong></li>
