@@ -64,11 +64,13 @@ errors in the code (i.e. have zero false positives).
         <span class="downButtonVersion">Version 1.66 for Windows</span>
     </a>
 </p>
-<p>You can download the standalone Cppcheck from our <a href="http://sourceforge.net/projects/cppcheck/">project page</a> or add it
-as a plugin for your favorite IDE:</p>
+
+<h2>Clients and plugins</h2>
+<p>Cppcheck is integrated with many popular development tools. For instance:</p>
 <ul>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
+  <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="http://cppcheclipse.googlecode.com/">Cppcheclipse</a></li>
   <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
@@ -78,7 +80,15 @@ as a plugin for your favorite IDE:</p>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
 </ul>
 
+<h2>Other static analysis tools</h2>
+
 <p>Using a battery of tools is better than using 1 tool. Therefore we recommend that you also use other tools.</p>
+
+<p>Cppcheck focus on bugs instead of stylistic issues. Therefore a tool that focus on stylistic issues could be a good addition.</p>
+
+<p>Cppcheck tries very hard to avoid false positives. Sometimes people want to detect all bugs even if there will be many false warnings, for instance when they are working on a release and want to verify that there are no bugs. A tool that is much more noisy than Cppcheck might be a good addition.</p>
+
+<p>Even tools that have the same design goals as Cppcheck will probably be good additions. Static analysis is such a big field, Cppcheck only covers a small fraction of it. No tool covers the whole field. The day when all manual testing will be obsolete because of some tool is very far away.</p>
 
 <p>One other tool you can use is <a href="http://www.viva64.com/en/pvs-studio/">PVS-Studio</a>. There is a
 <a href="http://www.viva64.com/en/b/0149/">comparison of Cppcheck and PVS-Studio</a> and we believe it's a good and honest comparison.
