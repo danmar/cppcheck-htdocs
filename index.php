@@ -69,6 +69,7 @@ errors in the code (i.e. have zero false positives).
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
 <ul>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
+  <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
   <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="http://cppcheclipse.googlecode.com/">Cppcheclipse</a></li>
