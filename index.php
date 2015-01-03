@@ -59,9 +59,9 @@ errors in the code (i.e. have zero false positives).
 
 <h2 id="download">Download</h2>
 <p>
-    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.67/cppcheck-1.67-x86-Setup.msi">
+    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.68/cppcheck-1.68-x86-Setup.msi">
         <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.67 for Windows</span>
+        <span class="downButtonVersion">Version 1.68 for Windows</span>
     </a>
 </p>
 
