@@ -98,12 +98,15 @@ PVS-Studio is commercial, however there is a free trial.</p>
 <h2 id="features">Features</h2>
 <ul>
   <li>Out of bounds checking</li>
-  <li>Check the code for each class</li>
-  <li>Checking exception safety</li>
   <li>Memory leaks checking</li>
-  <li>Warn if obsolete functions are used</li>
+  <li>Detect possible null pointer dereferences</li>
+  <li>Check for uninitialized variables</li>
   <li>Check for invalid usage of <acronym title="Standard Template Library">STL</acronym></li>
-  <li>Check for uninitialized variables and unused functions</li>
+  <li>Checking exception safety</li>
+  <li>Warn if obsolete or unsafe functions are used</li>
+  <li>Warn about unused or redundant code</li>
+  <li>Detect various suspicious code indicating bugs</li>
+  <li>&hellip;</li>
 </ul>
 
 <h2 id="news">News</h2>

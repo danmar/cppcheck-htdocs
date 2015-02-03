@@ -90,22 +90,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 ?>
 <p><a href="http://trac.cppcheck.net/timeline">View complete Trac timeline&hellip;</a></p>
 <h2 id="active-forum-topics">Active Forum Topics</h2>
-<?php
-  require '../site/activetopics.php';
-
-  $activetopics = new Forum_ActiveTopics('http://sourceforge.net/apps/phpbb/cppcheck/');
-  print("<ul class=\"rssfeeditems\">\n");
-  foreach ($activetopics->getTopics(0, 10) as $topic) { //for all active topics...
-    $lastPostLine = '';
-    if ($topic->getLastPost() != null) {
-        $lastPost = $topic->getLastPost();
-        $lastPostLine = sprintf('last post by <strong>%1$s</strong> at %2$s', $lastPost->getUser(), $lastPost->getDate('Y-m-d H:i'));
-    }
-    print("  <li><a href=\"".$topic->getLink()."\">".$topic->getTitle()."</a> <em>".$lastPostLine."</em></li>\n");
-  }
-  print("</ul>\n");
-?>
-<p><a href="http://sourceforge.net/apps/phpbb/cppcheck/search.php?st=0&amp;search_id=active_topics">View all active topics&hellip;</a></p>
+<p><a href="http://sourceforge.net/p/cppcheck/discussion/">View all active topics&hellip;</a></p>
 <h2 id="doxygen">Doxygen</h2>
 <ul>
   <li><a href="doxyoutput/">Output</a></li>
@@ -120,7 +105,6 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h2 id="other">Other</h2>
 <ul>
   <li><a href="coverage_report/">Coverage report</a></li>
-  <li><a href="cpd.txt">CPD report (duplicate code)</a></li>
 </ul>
   </div> <!-- .wrap -->
 </div> <!-- #content -->
