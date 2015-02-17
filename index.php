@@ -91,10 +91,6 @@ errors in the code (i.e. have zero false positives).
 
 <p>Even tools that have the same design goals as Cppcheck will probably be good additions. Static analysis is such a big field, Cppcheck only covers a small fraction of it. No tool covers the whole field. The day when all manual testing will be obsolete because of some tool is very far away.</p>
 
-<p>One other tool you can use is <a href="http://www.viva64.com/en/pvs-studio/">PVS-Studio</a>. There is a
-<a href="http://www.viva64.com/en/b/0149/">comparison of Cppcheck and PVS-Studio</a> and we believe it's a good and honest comparison.
-PVS-Studio is commercial, however there is a free trial.</p>
-
 <h2 id="features">Features</h2>
 <ul>
   <li>Out of bounds checking</li>
