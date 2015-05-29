@@ -47,7 +47,7 @@
   <div class="wrap">
     <ul>
       <li><a href="#source-code">Source Code</a></li>
-      <li><a href="#trac-timeline">Trac Timeline</a></li>
+      <li><a href="http://trac.cppcheck.net/timeline">Trac Timeline</a></li>
       <li><a href="#active-forum-topics">Active Forum Topics</a></li>
       <li><a href="#doxygen">Doxygen</a></li>
       <li><a href="#scan">Scan</a></li>
@@ -69,26 +69,6 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h3>Recent Commits</h3>
 <div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/master">View recent commits&hellip;</a></div>
 <p><a href="https://github.com/danmar/cppcheck/commits/master">View all commits&hellip;</a></p>
-<h2 id="trac-timeline">Trac Timeline</h2>
-<?php
-  require '../site/simplepie/simplepie.php';
-
-  $feed = new SimplePie();
-  $feed->set_feed_url('http://trac.cppcheck.net/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
-  $feed->set_cache_location('../site/simplepie/cache');
-  $feed->init();
-  print("<ul class=\"rssfeeditems\">\n");
-  foreach ($feed->get_items() as $item) { //for the last timeline items...
-    if ($author = $item->get_author()) {
-      $author = "by <strong>".trim($author->get_name())."</strong>";
-    } else {
-      $author = null;
-    }
-    print("  <li><a href=\"".$item->get_link()."\">".$item->get_title()."</a> <em>".$author." on ".$item->get_date('Y-m-d')."</em></li>\n");
-  }
-  print("</ul>\n");
-?>
-<p><a href="http://trac.cppcheck.net/timeline">View complete Trac timeline&hellip;</a></p>
 <h2 id="active-forum-topics">Active Forum Topics</h2>
 <p><a href="http://sourceforge.net/p/cppcheck/discussion/">View all active topics&hellip;</a></p>
 <h2 id="doxygen">Doxygen</h2>
