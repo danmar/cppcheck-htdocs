@@ -92,6 +92,7 @@ errors in the code (i.e. have zero false positives).
 <p>Even tools that have the same design goals as Cppcheck will probably be good additions. Static analysis is such a big field, Cppcheck only covers a small fraction of it. No tool covers the whole field. The day when all manual testing will be obsolete because of some tool is very far away.</p>
 
 <h2 id="features">Features</h2>
+<p>Detect various kinds of bugs in your code.</p>
 <ul>
   <li>Out of bounds checking</li>
   <li>Memory leaks checking</li>
@@ -103,6 +104,17 @@ errors in the code (i.e. have zero false positives).
   <li>Warn about unused or redundant code</li>
   <li>Detect various suspicious code indicating bugs</li>
   <li>&hellip;</li>
+</ul>
+<p>For a list of all checks see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
+<p>In addition, there are also a few extra checks in the Cppcheck repository that can be downloaded; <a href="https://github.com/danmar/cppcheck/tree/master/rules">rules</a> , <a href="https://github.com/danmar/cppcheck/tree/master/addons">addons</a>.</p>
+
+<p>Both command line interface and graphical user interface are available.</p>
+
+<p>Cppcheck can be extended. You can:</p>
+<ul>
+<li>look for simple patterns, see chapter about rules in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
+<li>define rules for functions with .cfg files, see chapter about library files in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
+<li>extend cppcheck with scripts, see chapter about addons in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
 </ul>
 
 <h2 id="news">News</h2>
