@@ -59,10 +59,19 @@ errors in the code (i.e. have zero false positives).
 
 <h2 id="download">Download</h2>
 <p>
+  <table border="0">
+  <tr><td>
     <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.70/cppcheck-1.70-x64-Setup.msi">
         <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.70 for Windows</span>
+        <span class="downButtonVersion">Version 1.70 for Windows (64-bit)</span>
     </a>
+  </td><td width="32">&nbsp;</td><td>
+    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.70/cppcheck-1.70-x32-Setup.msi">
+        <span class="downButtonText">Download Now!</span>
+        <span class="downButtonVersion">Version 1.70 for Windows (32-bit)</span>
+    </a>
+  </td></tr>
+  </table>
 </p>
 
 <h2>Clients and plugins</h2>
