@@ -61,14 +61,14 @@ errors in the code (i.e. have zero false positives).
 <p>
   <table border="0">
   <tr><td>
-    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.70/cppcheck-1.70-x64-Setup.msi">
+    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.71/cppcheck-1.71-x64-Setup.msi">
         <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.70 for Windows (64-bit)</span>
+        <span class="downButtonVersion">Version 1.71 for Windows (64-bit)</span>
     </a>
   </td><td width="32">&nbsp;</td><td>
-    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.70/cppcheck-1.70-x32-Setup.msi">
+    <a class="downloadnow" href="http://sourceforge.net/projects/cppcheck/files/cppcheck/1.71/cppcheck-1.71-x86-Setup.msi">
         <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.70 for Windows (32-bit)</span>
+        <span class="downButtonVersion">Version 1.71 for Windows (32-bit)</span>
     </a>
   </td></tr>
   </table>
