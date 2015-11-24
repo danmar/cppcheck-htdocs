@@ -106,6 +106,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h2 id="other">Other</h2>
 <ul>
   <li><a href="coverage_report/">Coverage report</a></li>
+  <li><a href="cpd.txt">CPD - copy pasted code</a></li>
 </ul>
   </div> <!-- .wrap -->
 </div> <!-- #content -->
