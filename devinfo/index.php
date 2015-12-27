@@ -9,7 +9,9 @@
   <link rel="alternate" type="application/atom+xml" title="Recent Commits to cppcheck:master"
         href="https://github.com/danmar/cppcheck/commits/master.atom" />
   <link rel="alternate" type="application/atom+xml" title="Trac Timeline"
-        href="http://trac.cppcheck.net:443/trac-cppcheck/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
+        href="http://trac.cppcheck.net/timeline?changeset=on&amp;ticket=on&amp;milestone=on&amp;wiki=on&amp;max=50&amp;daysback=90&amp;format=rss" />
+  <link rel="alternate" type="application/atom+xml" title="Latest Forum Posts"
+        href="http://sourceforge.net/p/cppcheck/discussion/feed" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
   <script type="text/javascript">
     //<![CDATA[
@@ -47,8 +49,8 @@
   <div class="wrap">
     <ul>
       <li><a href="#source-code">Source Code</a></li>
-      <li><a href="#trac-timeline">Trac Timeline</a></li>
-      <li><a href="#active-forum-topics">Active Forum Topics</a></li>
+      <li><a href="http://trac.cppcheck.net/timeline">Trac Timeline</a></li>
+      <li><a href="#latest-forum-posts">Latest Forum Posts</a></li>
       <li><a href="#doxygen">Doxygen</a></li>
       <li><a href="#scan">Scan</a></li>
       <li><a href="#other">Other</a></li>
@@ -69,12 +71,12 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h3>Recent Commits</h3>
 <div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/master">View recent commits&hellip;</a></div>
 <p><a href="https://github.com/danmar/cppcheck/commits/master">View all commits&hellip;</a></p>
-<h2 id="trac-timeline">Trac Timeline</h2>
+<h2 id="latest-forum-posts">Latest Forum Posts</h2>
 <?php
   require '../site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://trac.cppcheck.net/timeline?changeset=on&ticket=on&milestone=on&wiki=on&max=10&daysback=90&format=rss');
+  $feed->set_feed_url('http://sourceforge.net/p/cppcheck/discussion/feed');
   $feed->set_cache_location('../site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -88,9 +90,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
   }
   print("</ul>\n");
 ?>
-<p><a href="http://trac.cppcheck.net/timeline">View complete Trac timeline&hellip;</a></p>
-<h2 id="active-forum-topics">Active Forum Topics</h2>
-<p><a href="http://sourceforge.net/p/cppcheck/discussion/">View all active topics&hellip;</a></p>
+<p><a href="http://sourceforge.net/p/cppcheck/discussion/">View forum&hellip;</a></p>
 <h2 id="doxygen">Doxygen</h2>
 <ul>
   <li><a href="doxyoutput/">Output</a></li>
