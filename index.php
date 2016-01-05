@@ -157,24 +157,26 @@ errors in the code (i.e. have zero false positives).
 <p>You are welcome to contribute. Help is needed.</p>
 <dl>
   <dt>Testing</dt>
-  <dd>Pick a project and test it's source with latest version. Write tickets to
-  <a href="http://trac.cppcheck.net">Trac</a> about issues you
-  find from Cppcheck.</dd>
+  <dd>Pick a project and test its source with the latest version of Cppcheck.
+  Submit tickets to <a href="http://trac.cppcheck.net">Trac</a> about the
+  issues you find in Cppcheck.</dd>
   <dt>Developing</dt>
   <dd>Pick a ticket from <a href="http://trac.cppcheck.net">Trac</a>,
-  write a test case for it (and write a comment to the ticket that test case has
-  been created). Or pick a test case that fails and try to fix it. Make a patch
-  and submit it to Trac either inline if it is small, or attach it as a file.</dd>
+  write a test case for it (and write a comment to the ticket for which that
+  test case has been created). Alternatively, pick a test case that fails and
+  try to fix it. Make a patch and submit it to Trac either inline, if it is
+  small, or otherwise - attach it as a file.</dd>
   <dt>Marketing</dt>
   <dd>Write articles, reviews or tell your friends about us. The more users we
   have, the more people we have testing and the better we can become.</dd>
   <dt>Design</dt>
-  <dd>Invent new good checks and create tickets to <a href="http://trac.cppcheck.net">Trac</a>
+  <dd>Come up with some new good checks, and create tickets in
+  <a href="http://trac.cppcheck.net">the Trac instance</a>
   about them.</dd>
   <dt>Integration</dt>
-  <dd>Write a plugin to your favorite IDE or create a package for your distribution
-  or operating system.</dd>
-  <dt>Technical Writer</dt>
+  <dd>Write a plugin for your favorite IDE or create a package for your
+  distribution or operating system.</dd>
+  <dt>Technical Writing</dt>
   <dd>Write better documentation for the bugs we find. Currently only a few bugs
   have any documentation at all.</dd>
 </dl>
