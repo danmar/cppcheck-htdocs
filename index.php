@@ -77,7 +77,7 @@ errors in the code (i.e. have zero false positives).
 <h2>Clients and plugins</h2>
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
 <ul>
-  <li><strong>Clion</strong> - <a href="https://plugins.jetbrains.com/plugin/8143">Cppcheck plugin</a></li>
+  <li><strong>CLion</strong> - <a href="https://plugins.jetbrains.com/plugin/8143">Cppcheck plugin</a></li>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
   <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
