@@ -90,6 +90,7 @@ errors in the code (i.e. have zero false positives).
   <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
   <li><strong>Git (Linux)</strong> - <a href="https://github.com/danmar/cppcheck/blob/master/tools/git-pre-commit-cppcheck">pre-commit hook</a> - Check for errors in files going into commit (requires interactive terminal)</li>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
+  <li><strong>QtCreator</strong> - <a href="https://sourceforge.net/projects/qtprojecttool/files">Qt Project Tool (qpt)</a></li>
 </ul>
 
 <h2>Other static analysis tools</h2>
