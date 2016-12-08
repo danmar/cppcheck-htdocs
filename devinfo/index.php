@@ -66,7 +66,7 @@ cppcheck git repository</a>.</p>
 <pre class="cmd">git clone git://github.com/danmar/cppcheck.git</pre>
 <p>To get the source code using subversion:</p>
 <pre class="cmd">svn checkout https://github.com/danmar/cppcheck/trunk</pre>
-<p>You can also <a href="https://github.com/danmar/cppcheck/downloads">download
+<p>You can also <a href="https://github.com/danmar/cppcheck/releases">download
 the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h3>Recent Commits</h3>
 <div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/master">View recent commits&hellip;</a></div>
