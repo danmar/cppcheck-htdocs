@@ -83,6 +83,7 @@ errors in the code (i.e. have zero false positives).
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
   <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
   <li><strong>Eclipse</strong> - <a href="http://cppcheclipse.googlecode.com/">Cppcheclipse</a></li>
+  <li><strong>KDevelop</strong> - <a href="https://kdevelop.org/">integrated since v5.1</a></li>
   <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="http://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
