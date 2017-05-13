@@ -59,19 +59,20 @@ errors in the code (i.e. have zero false positives).
 
 <h2 id="download">Download</h2>
 <p>
-  <table border="0">
-  <tr><td>
-    <a class="downloadnow" href="http://github.com/danmar/cppcheck/releases/download/1.77/cppcheck-1.77-x64-Setup.msi">
-        <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.77 for Windows (64-bit)</span>
-    </a>
-  </td><td width="32">&nbsp;</td><td>
-    <a class="downloadnow" href="http://github.com/danmar/cppcheck/releases/download/1.77/cppcheck-1.77-x86-Setup.msi">
-        <span class="downButtonText">Download Now!</span>
-        <span class="downButtonVersion">Version 1.77 for Windows (32-bit)</span>
-    </a>
-  </td></tr>
+  <h3>Cppcheck 1.79</h3>
+  <table border="0" width="50%">
+    <tr> <td style="background-color:#369" width="75%"><font style="color:#eee">Platform</td> <td  style="background-color:#369"><font style="color:#eee">File</font></td> </tr>
+    <tr> <td  style="background-color:#fff">Windows 64-bit (No XP support)</td> <td style="background-color:#fff"><a href="http://github.com/danmar/cppcheck/releases/download/1.79/cppcheck-1.79-x64-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.79/cppcheck-1.79-x86-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#fff">Source code (.zip)</td><td style="background-color:#fff"><a href="https://github.com/danmar/cppcheck/archive/1.79.zip">Archive</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.79.tar.gz">Archive</a></td> </tr>
   </table>
+
+  <h3>Packages</h3>
+  Cppcheck can also be installed from various package managers; however, you might get an outdated version then.<br>
+  Debian: sudo apt-get install cppcheck<br>
+  Fedora: sudo yum install cppcheck<br>
+  Mac: brew install cppcheck<br>
 </p>
 
 <h2>Clients and plugins</h2>
