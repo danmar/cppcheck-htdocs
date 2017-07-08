@@ -70,9 +70,9 @@ errors in the code (i.e. have zero false positives).
 
   <h3>Packages</h3>
   Cppcheck can also be installed from various package managers; however, you might get an outdated version then.<br>
-  Debian: <pre>sudo apt-get install cppcheck</pre><br>
-  Fedora: <pre>sudo yum install cppcheck</pre><br>
-  Mac: <pre>brew install cppcheck</pre><br>
+  Debian: <pre class="cmd">sudo apt-get install cppcheck</pre>
+  Fedora: <pre class="cmd">sudo yum install cppcheck</pre>
+  Mac: <pre class="cmd">brew install cppcheck</pre>
 </p>
 
 <h2>Clients and plugins</h2>
