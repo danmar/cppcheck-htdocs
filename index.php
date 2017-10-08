@@ -59,13 +59,13 @@ errors in the code (i.e. have zero false positives).
 
 <h2 id="download">Download</h2>
 <p>
-  <h3>Cppcheck 1.80</h3>
+  <h3>Cppcheck 1.81</h3>
   <table border="0" width="50%">
     <tr> <td style="background-color:#369" width="75%"><font style="color:#eee">Platform</td> <td  style="background-color:#369"><font style="color:#eee">File</font></td> </tr>
-    <tr> <td  style="background-color:#fff">Windows 64-bit (No XP support)</td> <td style="background-color:#fff"><a href="http://github.com/danmar/cppcheck/releases/download/1.80/cppcheck-1.80-x64-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.80/cppcheck-1.80-x86-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#fff">Source code (.zip)</td><td style="background-color:#fff"><a href="https://github.com/danmar/cppcheck/archive/1.80.zip">Archive</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.80.tar.gz">Archive</a></td> </tr>
+    <tr> <td  style="background-color:#fff">Windows 64-bit (No XP support)</td> <td style="background-color:#fff"><a href="http://github.com/danmar/cppcheck/releases/download/1.81/cppcheck-1.81-x64-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.81/cppcheck-1.81-x86-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#fff">Source code (.zip)</td><td style="background-color:#fff"><a href="http://github.com/danmar/cppcheck/releases/download/1.81/cppcheck-1.81.zip">Archive</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.81/cppcheck-1.81.tar.gz">Archive</a></td> </tr>
   </table>
 
   <h3>Packages</h3>
