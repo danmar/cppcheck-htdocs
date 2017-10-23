@@ -51,10 +51,8 @@ uninitialized variables, unused functions" />
   <div class="wrap">
 <p>
 <strong>Cppcheck</strong> is a <a href="http://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
-for C/C++ code. Unlike C/C++ compilers and many other analysis tools it does
-not detect syntax errors in the code. Cppcheck primarily detects the types of
-bugs that the compilers normally do not detect. The goal is to detect only real
-errors in the code (i.e. have zero false positives).
+for C/C++ code. Cppcheck has unique code analysis to detect bugs. The focus is to detect undefined behaviour and
+dangerous coding constructs. The goal is to detect only real errors in the code (i.e. have very few false positives).
 </p>
 
 <h2 id="download">Download</h2>
@@ -74,6 +72,44 @@ errors in the code (i.e. have zero false positives).
   Fedora: <pre class="cmd">sudo yum install cppcheck</pre>
   Mac: <pre class="cmd">brew install cppcheck</pre>
 </p>
+
+<h2 id="features">Features</h2>
+<p>Unique code analysis that detect various kinds of bugs in your code.</p>
+<p>Both command line interface and graphical user interface are available.</p>
+
+<h3>Undefined behaviour</h3>
+<ul>
+  <li>Dead pointers</li>
+  <li>Division by zero</li>
+  <li>Integer overflows</li>
+  <li>Invalid bit shift operands</li>
+  <li>Invalid conversions</li>
+  <li>Invalid usage of <acronym title="Standard Template Library">STL</acronym></li>
+  <li>Memory management</li>
+  <li>Null pointer dereferences</li>
+  <li>Out of bounds checking</li>
+  <li>Uninitialized variables</li>
+  <li>Writing const data</li>
+</ul>
+
+<h3 id="security">Security</h3>
+<p>Security is very important nowadays.</p>
+<p>Security experts recommend that you use static analysis. It is not supposed to be your only defense against vulnerabilities. But it has an important role.</p>
+<p>Cppcheck can detect
+<ul>
+  <li>Buffer overflows</li>
+  <li>Unintended backdoors - a simple mistake in a condition can lead to for instance:
+    <ul>
+      <li>Information leakage</li>
+      <li>Access rights not respected</li>
+      <li>And many more</li>
+    </ul>
+  </li>
+  <li>API misuse</li>
+</ul>
+
+<h3>All checks</h3>
+<p>For a list of all checks see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
 
 <h2>Clients and plugins</h2>
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
@@ -104,32 +140,6 @@ errors in the code (i.e. have zero false positives).
 <p>Cppcheck tries very hard to avoid false positives. Sometimes people want to detect all bugs even if there will be many false warnings, for instance when they are working on a release and want to verify that there are no bugs. A tool that is much more noisy than Cppcheck might be a good addition.</p>
 
 <p>Even tools that have the same design goals as Cppcheck will probably be good additions. Static analysis is such a big field, Cppcheck only covers a small fraction of it. No tool covers the whole field. The day when all manual testing will be obsolete because of some tool is very far away.</p>
-
-<h2 id="features">Features</h2>
-<p>Detect various kinds of bugs in your code.</p>
-<ul>
-  <li>Out of bounds checking</li>
-  <li>Memory leaks checking</li>
-  <li>Detect possible null pointer dereferences</li>
-  <li>Check for uninitialized variables</li>
-  <li>Check for invalid usage of <acronym title="Standard Template Library">STL</acronym></li>
-  <li>Checking exception safety</li>
-  <li>Warn if obsolete or unsafe functions are used</li>
-  <li>Warn about unused or redundant code</li>
-  <li>Detect various suspicious code indicating bugs</li>
-  <li>&hellip;</li>
-</ul>
-<p>For a list of all checks see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
-<p>In addition, there are also a few extra checks in the Cppcheck repository that can be downloaded; <a href="https://github.com/danmar/cppcheck/tree/master/rules">rules</a> , <a href="https://github.com/danmar/cppcheck/tree/master/addons">addons</a>.</p>
-
-<p>Both command line interface and graphical user interface are available.</p>
-
-<p>Cppcheck can be extended. You can:</p>
-<ul>
-<li>look for simple patterns, see chapter about rules in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
-<li>define rules for functions with .cfg files, see chapter about library files in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
-<li>extend cppcheck with scripts, see chapter about addons in the manual (<a href="manual.pdf">pdf</a>, <a href="manual.html">html</a>)</li>
-</ul>
 
 <h2 id="news">News</h2>
 <?php
