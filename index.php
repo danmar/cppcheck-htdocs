@@ -51,7 +51,7 @@ uninitialized variables, unused functions" />
   <div class="wrap">
 <p>
 <strong>Cppcheck</strong> is a <a href="http://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
-for C/C++ code. Cppcheck has unique code analysis to detect bugs. The focus is to detect undefined behaviour and
+for C/C++ code. It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and
 dangerous coding constructs. The goal is to detect only real errors in the code (i.e. have very few false positives).
 </p>
 
@@ -133,7 +133,7 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 
 <h2>Other static analysis tools</h2>
 
-<p>Using a battery of tools is better than using 1 tool. Therefore we recommend that you also use other tools.</p>
+<p>Using a battery of tools is better than using one tool. Each tool has unique code analysis and therefore we recommend that you also use other tools.</p>
 
 <p>Cppcheck focus on bugs instead of stylistic issues. Therefore a tool that focus on stylistic issues could be a good addition.</p>
 
