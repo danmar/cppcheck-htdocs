@@ -93,20 +93,21 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 </ul>
 
 <h3 id="security">Security</h3>
-<p>Security is very important nowadays.</p>
-<p>Security experts recommend that you use static analysis. It is not supposed to be your only defense against vulnerabilities. But it has an important role.</p>
-<p>Cppcheck can detect
-<ul>
-  <li>Buffer overflows</li>
-  <li>Unintended backdoors - a simple mistake in a condition can lead to for instance:
-    <ul>
-      <li>Information leakage</li>
-      <li>Access rights not respected</li>
-      <li>And many more</li>
-    </ul>
-  </li>
-  <li>API misuse</li>
-</ul>
+<p>The most common types of security vulnerabilities so far in 2017 (CVE count) are:
+  <table border="0">
+    <tr> <td style="background-color:#369"><font style="color:#eee">Category</td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Amount </font></td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Cppcheck </font></td> </tr>
+    <tr> <td  style="background-color:#fff">Buffer Errors</td> <td style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2077</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">Partial</td> </tr>
+    <tr> <td style="background-color:#ccccff">Improper Access Control</td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1237</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">Partial (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#fff">Information Leak</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1088</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">Partial (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#ccccff">Permissions, Privileges, and Access Control</td> <td  style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">991</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">Partial (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#fff">Input Validation</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">737</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">No</td> </tr>
+  </table>
+</p>
+
+<p>A CVE that is found by Cppcheck:<br>
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2017-7679">CVE-2017-7679</a> : In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.<br>
+The real cause is a mistake in a condition and that is found by Cppcheck.
+</p>
 
 <h3>All checks</h3>
 <p>For a list of all checks see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
