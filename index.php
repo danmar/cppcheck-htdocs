@@ -104,19 +104,19 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
   </table>
 </p>
 
-<p>CVEs that are detected by Cppcheck:
+<p>CVEs that was found using Cppcheck:
 <ul>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2017-1000249">CVE-2017-1000249</a> : file: stack based buffer overflow<br>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2017-1000249">CVE-2017-1000249</a> : file : stack based buffer overflow<br>
 This was found by Thomas Jarosch using Cppcheck. The cause is a mistake in a condition.</li>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2017-7679">CVE-2017-7679</a> : In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end of a buffer when sending a malicious Content-Type response header.<br>
-The real cause was a mistake in a condition. We added a checker for this and such mistakes will be found by Cppcheck from now on.</li>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2013-6462">CVE-2013-6462</a> : 23 year old stack overflow in X.org that was found with Cppcheck.</li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2013-6462">CVE-2013-6462</a> : 23 year old stack overflow in X.org that was found with Cppcheck.<br>
+This has been described in a few articles (<a href="https://www.theregister.co.uk/2014/01/09/x11_has_privilege_escalation_bug/">link</a>).</li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2012-1147">CVE-2012-1147</a> : readfilemap.c in expat before 2.1.0 allows context-dependent attackers to cause a denial of service (file descriptor consumption) via a large number of crafted XML files..</li>
 </ul>
 </p>
 
-<p>If you google "cppcheck CVE" you will get a few hits for CVEs that were actually detected by Cppcheck.</p>
+<p>These CVEs are shown when you google "cppcheck CVE". Feel free to compare the search results with other static analysis tools.</p>
 
-<p>Security experts recommend that static analysis is used. And using a number of tools is the best approach from a security perspective.</p>
+<p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
 
 <h3>All checks</h3>
 <p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
