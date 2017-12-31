@@ -57,9 +57,8 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 </p>
 
 <h2 id="donate">Donate</h2>
-<p>If you find Cppcheck useful then feel free to donate some money to the Cppcheck project.</p>
+<p>Please donate some money to the Cppcheck project.</p>
 <p><a href="http://pledgie.com/campaigns/4127"><img src="http://pledgie.com/campaigns/4127.png"></a></p>
-<p>If you want the money to be used as a bounty for some specific feature / bug fix then that is possible.</p>
 
 <h2 id="download">Download</h2>
 <p>
