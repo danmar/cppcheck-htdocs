@@ -98,13 +98,14 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 </ul>
 <h2 id="scan">Scan</h2>
 <ul>
-  <li>DACA2 - Scanning Debian with Cppcheck. <a href="daca2-unstable-report/daca2.html">unstable</a> / <a href="daca2-stable-report/daca2.html">stable</a></li>
+  <li>DACA2 - Scanning Debian with Cppcheck. <a href="daca2-report/daca2.html">head</a></li>
 </ul>
 
 <h2 id="other">Other</h2>
 <ul>
   <li><a href="coverage_report/">Coverage report</a></li>
   <li><a href="cpd.txt">CPD - copy pasted code</a></li>
+  <li><a href="keywords.txt">Trac keywords</a></li>
 </ul>
   </div> <!-- .wrap -->
 </div> <!-- #content -->
