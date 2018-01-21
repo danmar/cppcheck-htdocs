@@ -81,6 +81,7 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 <h2 id="features">Features</h2>
 <p>Unique code analysis that detect various kinds of bugs in your code.</p>
 <p>Both command line interface and graphical user interface are available.</p>
+<p>Cppcheck has a strong focus on detecting undefined behaviour.<p>
 
 <h3>Undefined behaviour</h3>
 <ul>
@@ -98,14 +99,14 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 </ul>
 
 <h3 id="security">Security</h3>
-<p>The most common types of security vulnerabilities so far in 2017 (CVE count) are:
+<p>The most common types of security vulnerabilities in 2017 (CVE count) was:
   <table border="0">
     <tr> <td style="background-color:#369"><font style="color:#eee">Category</td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Amount </font></td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Detected by Cppcheck </font></td> </tr>
-    <tr> <td  style="background-color:#fff">Buffer Errors</td> <td style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2077</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few</td> </tr>
-    <tr> <td style="background-color:#ccccff">Improper Access Control</td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1237</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#fff">Information Leak</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1088</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#ccccff">Permissions, Privileges, and Access Control</td> <td  style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">991</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#fff">Input Validation</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">737</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">No</td> </tr>
+    <tr> <td  style="background-color:#fff">Buffer Errors</td> <td style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2530</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few</td> </tr>
+    <tr> <td style="background-color:#ccccff">Improper Access Control</td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1366</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#fff">Information Leak</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1426</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#ccccff">Permissions, Privileges, and Access Control</td> <td  style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">1196</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
+    <tr> <td style="background-color:#fff">Input Validation</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">968</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">No</td> </tr>
   </table>
 </p>
 
@@ -122,6 +123,10 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>These CVEs are shown when you google "cppcheck CVE". Feel free to compare the search results with other static analysis tools.</p>
 
 <p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
+
+<h3 id="coding-standards">Coding standards</h3>
+<p>Cert: A few checkers availabe in addon.</p>
+<p>Misra: Available in addon. As far as we know, Cppcheck is the only open source tool to check Misra compliance.</p>
 
 <h3>All checks</h3>
 <p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
