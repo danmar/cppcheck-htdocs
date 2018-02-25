@@ -38,7 +38,6 @@ uninitialized variables, unused functions" />
 <div id="anchors">
   <div class="wrap">
     <ul>
-      <li><a href="#donate">Donate</a></li>
       <li><a href="#download">Download</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#news">News</a></li>
@@ -55,10 +54,6 @@ uninitialized variables, unused functions" />
 for C/C++ code. It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and
 dangerous coding constructs. The goal is to detect only real errors in the code (i.e. have very few false positives).
 </p>
-
-<h2 id="donate">Donate</h2>
-<p>Please donate some money to the Cppcheck project.</p>
-<p><a href="http://pledgie.com/campaigns/4127"><img src="http://pledgie.com/campaigns/4127.png"></a></p>
 
 <h2 id="download">Download</h2>
 <p>
