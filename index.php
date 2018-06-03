@@ -44,6 +44,7 @@ uninitialized variables, unused functions" />
       <li><a href="#documentation">Documentation</a></li>
       <li><a href="#support">Support</a></li>
       <li><a href="#contribute">Contribute</a></li>
+      <li><a href="#paying">Paying us to develop feature(s)</li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #anchors -->
@@ -121,7 +122,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 <h3 id="coding-standards">Coding standards</h3>
 <p>Cert: A few checkers availabe in addon.</p>
-<p>Misra: Available in addon. As far as we know, Cppcheck is the only open source tool to check Misra compliance.</p>
+<p>Misra: <a href="misra.php">Feature matrix</a>.</p>
 
 <h3>All checks</h3>
 <p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
@@ -209,7 +210,17 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <dd>Write better documentation for the bugs we find. Currently only a few bugs
   have any documentation at all.</dd>
 </dl>
-  </div> <!-- .wrap -->
+
+<h2 id="paying">Paying us to develop feature(s)</h2>
+<p>
+The Cppcheck team would be happy to implement features for you if you pay us. Both fixed price and variable price is possible.
+</p>
+
+<p>
+For this task, the Cppcheck-team is the best possible team imaginable in the world. We have better knowledge about Cppcheck than anybody else in the world and have unique positions in the project.
+</p>
+
+</div> <!-- .wrap -->
 </div> <!-- #content -->
 <?php include_once("analyticstracking.php") ?>
 </body>
