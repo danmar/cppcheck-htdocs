@@ -121,7 +121,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
 
 <h3 id="coding-standards">Coding standards</h3>
-<p>Cert: A few checkers availabe in addon.</p>
+<p>Cert: A few checkers available in addon.</p>
 <p>Misra: <a href="misra.php">Feature matrix</a>.</p>
 
 <h3>All checks</h3>
