@@ -131,6 +131,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
 <ul>
   <li><strong>CLion</strong> - <a href="https://plugins.jetbrains.com/plugin/8143">Cppcheck plugin</a></li>
+  <li><strong>Codacy</strong> - <a href="https://www.codacy.com/">integrated</a> - Check for code style and security issues on every commit and pull request</li>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
   <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
