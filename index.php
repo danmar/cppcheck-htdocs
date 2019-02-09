@@ -58,13 +58,13 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 
 <h2 id="download">Download</h2>
 <p>
-  <h3>Cppcheck 1.86</h3>
+  <h3>Cppcheck 1.87</h3>
   <table border="0" width="50%">
     <tr> <td style="background-color:#369" width="75%"><font style="color:#eee">Platform</td> <td  style="background-color:#369"><font style="color:#eee">File</font></td> </tr>
-    <tr> <td style="background-color:#ffffff">Windows 64-bit (No XP support)</td> <td style="background-color:#ffffff"><a href="http://github.com/danmar/cppcheck/releases/download/1.86/cppcheck-1.86-x64-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.86/cppcheck-1.86-x86-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#ffffff">Source code (.zip)</td><td style="background-color:#ffffff"><a href="https://github.com/danmar/cppcheck/archive/1.86.zip">Archive</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.86.tar.gz">Archive</a></td> </tr>
+    <tr> <td style="background-color:#ffffff">Windows 64-bit (No XP support)</td> <td style="background-color:#ffffff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x64-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x86-Setup.msi">Installer</a></td> </tr>
+    <tr> <td style="background-color:#ffffff">Source code (.zip)</td><td style="background-color:#ffffff"><a href="https://github.com/danmar/cppcheck/archive/1.87.zip">Archive</a></td> </tr>
+    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.87.tar.gz">Archive</a></td> </tr>
   </table>
 
   <h3>Packages</h3>
