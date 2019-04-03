@@ -139,42 +139,6 @@ a.author:active {
 }
 
 
-/* "Download Now!" link */
-a.downloadnow {
-  display: block;
-  width: 12em;
-  margin: 0;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background-color: #060;
-  border: 1px solid #003D00;
-  -webkit-border-radius: 0.5em;
-   -khtml-border-radius: 0.5em;
-     -moz-border-radius: 0.5em;
-          border-radius: 0.5em;
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-a.downloadnow:focus,
-a.downloadnow:hover {
-  background-color: #090;
-}
-
-.downButtonText {
-  display: block;
-  font-size: larger;
-  font-weight: bold;
-}
-
-.downButtonVersion {
-  display: block;
-  font-size: smaller;
-}
-
 /* Command */
 .cmd {
   padding: 0.5em;
