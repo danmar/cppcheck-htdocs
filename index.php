@@ -69,9 +69,12 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 
 <h3>Packages</h3>
 <p>Cppcheck can also be installed from various package managers; however, you might get an outdated version then.</p>
-Debian: <pre class="cmd">sudo apt-get install cppcheck</pre>
-Fedora: <pre class="cmd">sudo yum install cppcheck</pre>
-Mac: <pre class="cmd">brew install cppcheck</pre>
+<h4>Debian:</h4>
+<pre class="cmd">sudo apt-get install cppcheck</pre>
+<h4>Fedora:</h4>
+<pre class="cmd">sudo yum install cppcheck</pre>
+<h4>Mac:</h4>
+<pre class="cmd">brew install cppcheck</pre>
 
 <h2 id="features">Features</h2>
 <p>Unique code analysis that detect various kinds of bugs in your code.</p>
