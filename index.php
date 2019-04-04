@@ -59,12 +59,27 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 <h2 id="download">Download</h2>
 
 <h3>Cppcheck 1.87</h3>
-<table border="0" width="50%">
-  <tr> <td style="background-color:#369" width="75%"><font style="color:#eee">Platform</td> <td  style="background-color:#369"><font style="color:#eee">File</font></td> </tr>
-  <tr> <td style="background-color:#ffffff">Windows 64-bit (No XP support)</td> <td style="background-color:#ffffff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x64-Setup.msi">Installer</a></td> </tr>
-  <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x86-Setup.msi">Installer</a></td> </tr>
-  <tr> <td style="background-color:#ffffff">Source code (.zip)</td><td style="background-color:#ffffff"><a href="https://github.com/danmar/cppcheck/archive/1.87.zip">Archive</a></td> </tr>
-  <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.87.tar.gz">Archive</a></td> </tr>
+<table width="50%" class="table">
+  <tr>
+    <th width="75%">Platform</th>
+    <th>File</th>
+  </tr>
+  <tr>
+    <td>Windows 64-bit (No XP support)</td>
+    <td><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x64-Setup.msi">Installer</a></td>
+  </tr>
+  <tr>
+    <td>Windows 32-bit (No XP support)</td>
+   <td><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x86-Setup.msi">Installer</a></td>
+  </tr>
+  <tr>
+    <td>Source code (.zip)</td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.87.zip">Archive</a></td>
+  </tr>
+  <tr>
+    <td>Source code (.tar.gz)</td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.87.tar.gz">Archive</a></td>
+  </tr>
 </table>
 
 <h3>Packages</h3>
@@ -98,13 +113,37 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 
 <h3 id="security">Security</h3>
 <p>The most common types of security vulnerabilities in 2017 (CVE count) was:</p>
-<table border="0">
-  <tr> <td style="background-color:#369"><font style="color:#eee">Category</td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Amount </font></td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Detected by Cppcheck </font></td> </tr>
-  <tr> <td  style="background-color:#fff">Buffer Errors</td> <td style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2530</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few</td> </tr>
-  <tr> <td style="background-color:#ccccff">Improper Access Control</td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1366</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-  <tr> <td style="background-color:#fff">Information Leak</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1426</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few (unintended backdoors)</td> </tr>
-  <tr> <td style="background-color:#ccccff">Permissions, Privileges, and Access Control</td> <td  style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">1196</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-  <tr> <td style="background-color:#fff">Input Validation</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">968</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">No</td> </tr>
+<table class="table">
+  <tr>
+    <th>Category</th>
+    <th>Amount</th>
+    <th>Detected by Cppcheck</th>
+  </tr>
+  <tr>
+    <td>Buffer Errors</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2530</a></td>
+    <td>A few</td>
+  </tr>
+  <tr>
+    <td>Improper Access Control</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1366</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Information Leak</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1426</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Permissions, Privileges, and Access Control</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">1196</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Input Validation</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">968</a></td>
+    <td>No</td>
+  </tr>
 </table>
 
 <p>CVEs that was found using Cppcheck:</p>

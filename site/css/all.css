@@ -147,6 +147,30 @@ a.author:active {
   border-left: 10px solid silver;
 }
 
+
+/* Table */
+.table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.table tr:nth-child(even) {
+	background-color: #f7f7f7;
+}
+.table tr:nth-child(odd) {
+	background-color: #dedede;
+}
+.table th {
+  text-align: left;
+  color: #eee;
+  background-color: #369;
+}
+.table th, .table td {
+	padding: .2em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
 /* Printing */
 @media print {
   #header { color: black; border-bottom: 1px solid black; }
