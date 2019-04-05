@@ -57,27 +57,44 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 </p>
 
 <h2 id="download">Download</h2>
-<p>
-  <h3>Cppcheck 1.87</h3>
-  <table border="0" width="50%">
-    <tr> <td style="background-color:#369" width="75%"><font style="color:#eee">Platform</td> <td  style="background-color:#369"><font style="color:#eee">File</font></td> </tr>
-    <tr> <td style="background-color:#ffffff">Windows 64-bit (No XP support)</td> <td style="background-color:#ffffff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x64-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Windows 32-bit (No XP support)</td> <td style="background-color:#ccccff"><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x86-Setup.msi">Installer</a></td> </tr>
-    <tr> <td style="background-color:#ffffff">Source code (.zip)</td><td style="background-color:#ffffff"><a href="https://github.com/danmar/cppcheck/archive/1.87.zip">Archive</a></td> </tr>
-    <tr> <td style="background-color:#ccccff">Source code (.tar.gz)</td><td style="background-color:#ccccff"><a href="https://github.com/danmar/cppcheck/archive/1.87.tar.gz">Archive</a></td> </tr>
-  </table>
 
-  <h3>Packages</h3>
-  Cppcheck can also be installed from various package managers; however, you might get an outdated version then.<br>
-  Debian: <pre class="cmd">sudo apt-get install cppcheck</pre>
-  Fedora: <pre class="cmd">sudo yum install cppcheck</pre>
-  Mac: <pre class="cmd">brew install cppcheck</pre>
-</p>
+<h3>Cppcheck 1.87</h3>
+<table width="50%" class="table">
+  <tr>
+    <th width="75%">Platform</th>
+    <th>File</th>
+  </tr>
+  <tr>
+    <td>Windows 64-bit (No XP support)</td>
+    <td><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x64-Setup.msi">Installer</a></td>
+  </tr>
+  <tr>
+    <td>Windows 32-bit (No XP support)</td>
+   <td><a href="http://github.com/danmar/cppcheck/releases/download/1.87/cppcheck-1.87-x86-Setup.msi">Installer</a></td>
+  </tr>
+  <tr>
+    <td>Source code (.zip)</td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.87.zip">Archive</a></td>
+  </tr>
+  <tr>
+    <td>Source code (.tar.gz)</td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.87.tar.gz">Archive</a></td>
+  </tr>
+</table>
+
+<h3>Packages</h3>
+<p>Cppcheck can also be installed from various package managers; however, you might get an outdated version then.</p>
+<h4>Debian:</h4>
+<pre class="cmd">sudo apt-get install cppcheck</pre>
+<h4>Fedora:</h4>
+<pre class="cmd">sudo yum install cppcheck</pre>
+<h4>Mac:</h4>
+<pre class="cmd">brew install cppcheck</pre>
 
 <h2 id="features">Features</h2>
 <p>Unique code analysis that detect various kinds of bugs in your code.</p>
 <p>Both command line interface and graphical user interface are available.</p>
-<p>Cppcheck has a strong focus on detecting undefined behaviour.<p>
+<p>Cppcheck has a strong focus on detecting undefined behaviour.</p>
 
 <h3>Undefined behaviour</h3>
 <ul>
@@ -95,18 +112,41 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 </ul>
 
 <h3 id="security">Security</h3>
-<p>The most common types of security vulnerabilities in 2017 (CVE count) was:
-  <table border="0">
-    <tr> <td style="background-color:#369"><font style="color:#eee">Category</td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Amount </font></td> <td style="background-color:#369">&nbsp;&nbsp;&nbsp;</td> <td style="background-color:#369"><font style="color:#eee"> Detected by Cppcheck </font></td> </tr>
-    <tr> <td  style="background-color:#fff">Buffer Errors</td> <td style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2530</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few</td> </tr>
-    <tr> <td style="background-color:#ccccff">Improper Access Control</td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1366</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#fff">Information Leak</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1426</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#ccccff">Permissions, Privileges, and Access Control</td> <td  style="background-color:#ccccff"></td> <td style="background-color:#ccccff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">1196</a></td> <td style="background-color:#ccccff"></td> <td style="background-color:#ccccff">A few (unintended backdoors)</td> </tr>
-    <tr> <td style="background-color:#fff">Input Validation</td> <td  style="background-color:#fff"></td> <td style="background-color:#fff"><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">968</a></td> <td  style="background-color:#fff"></td> <td  style="background-color:#fff">No</td> </tr>
-  </table>
-</p>
+<p>The most common types of security vulnerabilities in 2017 (CVE count) was:</p>
+<table class="table">
+  <tr>
+    <th>Category</th>
+    <th>Amount</th>
+    <th>Detected by Cppcheck</th>
+  </tr>
+  <tr>
+    <td>Buffer Errors</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-119">2530</a></td>
+    <td>A few</td>
+  </tr>
+  <tr>
+    <td>Improper Access Control</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-284">1366</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Information Leak</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-200">1426</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Permissions, Privileges, and Access Control</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-264">1196</a></td>
+    <td>A few (unintended backdoors)</td>
+  </tr>
+  <tr>
+    <td>Input Validation</td>
+    <td><a href="https://nvd.nist.gov/vuln/search/statistics?results_type=statistics&cwe_id=CWE-20">968</a></td>
+    <td>No</td>
+  </tr>
+</table>
 
-<p>CVEs that was found using Cppcheck:
+<p>CVEs that was found using Cppcheck:</p>
 <ul>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2017-1000249">CVE-2017-1000249</a> : file : stack based buffer overflow<br>
 This was found by Thomas Jarosch using Cppcheck. The cause is a mistake in a condition.</li>
@@ -114,7 +154,6 @@ This was found by Thomas Jarosch using Cppcheck. The cause is a mistake in a con
 This has been described in a few articles (<a href="https://www.theregister.co.uk/2014/01/09/x11_has_privilege_escalation_bug/">link</a>).</li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2012-1147">CVE-2012-1147</a> : readfilemap.c in expat before 2.1.0 allows context-dependent attackers to cause a denial of service (file descriptor consumption) via a large number of crafted XML files..</li>
 </ul>
-</p>
 
 <p>These CVEs are shown when you google "cppcheck CVE". Feel free to compare the search results with other static analysis tools.</p>
 
