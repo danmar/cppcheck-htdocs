@@ -35,6 +35,12 @@
 <h1>Cppcheck - MISRA C 2012 Compliance</h1>
 <p>The MISRA C 2012 compliance checking in cppcheck is a work in progress.</p>
 
+<h2>Kickstarter</h2>
+
+<p>We are currently trying to get funding for misra development through <a href="https://www.kickstarter.com/projects/3300446/improve-misra-checking">kickstarter</a>. Please donate to make the misra addon more complete.</p>
+
+<h2>Feature matrix</h2>
+
 <p>In the table below we show checkers that are included/missing in latest Cppcheck.</p>
 
 <p>The rules 1.1 and 1.2 will not be handled by Cppcheck. If you want to enforce these you can use compilers. For instance, you can compile (but not necessarily link) with gcc + msvc + your normal target compiler.</p>
