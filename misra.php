@@ -125,7 +125,7 @@
 13.6    X (Addon)
 14.1    X (Addon)
 14.2    X (Addon)
-14.3    
+14.3    X (Cppcheck)
 14.4    X (Addon)
 15.1    X (Addon)
 15.2    X (Addon)
@@ -147,11 +147,11 @@
 17.4    
 17.5    X (Cppcheck)
 17.6    X (Addon)
-17.7    
+17.7    X (Addon)
 17.8    X (Addon)
 18.1    X (Cppcheck)
-18.2    
-18.3    
+18.2    X (Cppcheck)
+18.3    X (Cppcheck)
 18.4    
 18.5    X (Addon)
 18.6    X (Cppcheck)
@@ -165,10 +165,10 @@
 20.4    X (Addon)
 20.5    X (Addon)
 20.6    X (Cppcheck)
-20.7    
+20.7    X (Addon)
 20.8    
 20.9    
-20.10   
+20.10   X (Addon)
 20.11   
 20.12   
 20.13   X (Addon)
@@ -192,7 +192,6 @@
 22.5    
 22.6    X (Cppcheck)
 </pre>
-
 </div>
 </div>
 </body>
