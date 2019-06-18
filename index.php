@@ -225,6 +225,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 
 <h2 id="contribute">Contribute</h2>
 <p>You are welcome to contribute. Help is needed.</p>
+<p>A presentation that might be interesting: <a href="https://www.youtube.com/watch?v=Cc_U1Hil0S4">Contribute to open source static analysis</a></p>
 <dl>
   <dt>Testing</dt>
   <dd>Pick a project and test its source with the latest version of Cppcheck.
