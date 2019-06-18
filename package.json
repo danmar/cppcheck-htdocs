@@ -21,7 +21,7 @@
     "csslint": "~0.10.0",
     "jshint": "~2.5.1",
     "shelljs": "~0.3.0",
-    "uglify-js": "~2.4.14"
+    "uglify-js": ">=2.6.0"
   },
   "jshintConfig": {
     "camelcase": true,
