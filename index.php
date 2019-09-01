@@ -58,7 +58,7 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 1.88</h3>
+<h3>Cppcheck 1.89</h3>
 <table width="50%" class="table">
   <tr>
     <th width="75%">Platform</th>
@@ -66,19 +66,19 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/1.88/cppcheck-1.88-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/1.88/cppcheck-1.89-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Windows 32-bit (No XP support)</td>
-   <td><a href="https://github.com/danmar/cppcheck/releases/download/1.88/cppcheck-1.88-x86-Setup.msi">Installer</a></td>
+   <td><a href="https://github.com/danmar/cppcheck/releases/download/1.88/cppcheck-1.89-x86-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/1.88.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.89.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/1.88.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/1.89.tar.gz">Archive</a></td>
   </tr>
 </table>
 
