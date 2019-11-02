@@ -223,6 +223,15 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li>Ask questions at the IRC channel <a href="irc://irc.freenode.net/#cppcheck">#cppcheck</a></li>
 </ul>
 
+<h2 id="donate">Donate CPU</h2>
+<p>The Cppcheck project is a hobby project with limited resources. You can help us by donating CPU (1 core or as many as you like). It is simple:</p>
+<ol>
+<li>Download (and extract) Cppcheck source code</li>
+<li>Run script: python cppcheck/tools/donate-cpu.py</li>
+</ol>
+<p>The script will analyse debian source code and upload the results to a cppcheck server. We need these results both to improve Cppcheck and to detect regressions.</p>
+<p>You can stop the script whenever you like with Ctrl C.</p>
+
 <h2 id="contribute">Contribute</h2>
 <p>You are welcome to contribute. Help is needed.</p>
 <p>A presentation that might be interesting: <a href="https://www.youtube.com/watch?v=Cc_U1Hil0S4">Contribute to open source static analysis</a></p>
