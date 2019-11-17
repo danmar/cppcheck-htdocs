@@ -180,6 +180,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
   <li><strong>Jenkins</strong> - <a href="http://wiki.jenkins-ci.org/display/JENKINS/Cppcheck+Plugin">Cppcheck Plugin</a></li>
+  <li><strong>Buildbot</strong> - <a href="https://docs.buildbot.net/latest/manual/configuration/buildsteps.html#cppcheck">integrated</a></li>
   <li><strong>Mercurial (Linux)</strong> - <a href="http://sourceforge.net/p/cppcheck/wiki/mercurialhook/">pre-commit hook</a> - Check for new errors on commit (requires interactive terminal)</li>
   <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
   <li><strong>Git (Linux)</strong> - <a href="https://github.com/danmar/cppcheck/blob/master/tools/git-pre-commit-cppcheck">pre-commit hook</a> - Check for errors in files going into commit (requires interactive terminal)</li>
