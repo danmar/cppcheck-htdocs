@@ -64,7 +64,7 @@
 4.2     
 5.1     X (Addon)
 5.2     X (Addon)
-5.3     X (Addon)
+5.3     X (Cppcheck)
 5.4     X (Addon)
 5.5     X (Addon)
 5.6     
