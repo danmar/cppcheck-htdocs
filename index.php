@@ -66,7 +66,7 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/1.89/cppcheck-1.90-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/1.90/cppcheck-1.90-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
