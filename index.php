@@ -44,7 +44,7 @@ uninitialized variables, unused functions" />
       <li><a href="#documentation">Documentation</a></li>
       <li><a href="#support">Support</a></li>
       <li><a href="#contribute">Contribute</a></li>
-      <li><a href="#paying">Paying us to develop feature(s)</li>
+      <li><a href="#paying">Paying us to develop feature(s)</a></li>
     </ul>
   </div> <!-- .wrap -->
 </div> <!-- #anchors -->
@@ -52,8 +52,10 @@ uninitialized variables, unused functions" />
   <div class="wrap">
 <p>
 <strong>Cppcheck</strong> is a <a href="http://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
-for C/C++ code. It provides unique code analysis to detect bugs and focuses on detecting undefined behaviour and
-dangerous coding constructs. The goal is to detect only real errors in the code (i.e. have very few false positives).
+for C/C++ code. It provides <a href="#unique">unique code analysis</a> to detect bugs and focuses on detecting undefined behaviour and
+dangerous coding constructs. The goal is to have very few false positives.
+Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects) and runs on
+arbitrary platforms.
 </p>
 
 <h2 id="download">Download</h2>
@@ -91,6 +93,34 @@ dangerous coding constructs. The goal is to detect only real errors in the code 
 <p>Unique code analysis that detect various kinds of bugs in your code.</p>
 <p>Both command line interface and graphical user interface are available.</p>
 <p>Cppcheck has a strong focus on detecting undefined behaviour.</p>
+
+<h3 id="unique">Unique analysis</h3>
+
+<p>Using several static analysis tools can be a good idea. There are unique features in each tool. This has been established in many studies.</p>
+
+<p>So what is unique in Cppcheck.</p>
+
+<p>Cppcheck uses unsound flow sensitive analysis. Several other analyzers use path sensitive analysis based on abstract interpretation, that is also great however that has both advantages and disadvantages. In theory by definition, it is better with path sensitive analysis than flow sensitive analysis. But in practice, it means Cppcheck will detect bugs that the other tools do not detect.</p>
+
+<p>In Cppcheck the data flow analysis is not only "forward" but "bi-directional". Most analyzers will diagnose this:</p>
+
+<pre>void foo(int x)
+{
+    int buf[10];
+    if (x == 1000)
+        buf[x] = 0; // <- ERROR
+}</pre>
+
+<p>Most tools can determine that the array index will be 1000 and there will be overflow.</p>
+
+<p>Cppcheck will also diagnose this:</p>
+
+<pre>void foo(int x)
+{
+    int buf[10];
+    buf[x] = 0; // <- ERROR
+    if (x == 1000) {}
+}</pre>
 
 <h3>Undefined behaviour</h3>
 <ul>
