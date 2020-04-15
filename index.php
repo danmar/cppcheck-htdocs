@@ -54,8 +54,7 @@ uninitialized variables, unused functions" />
 <strong>Cppcheck</strong> is a <a href="http://en.wikipedia.org/wiki/Static_analysis_tool">static analysis tool</a>
 for C/C++ code. It provides <a href="#unique">unique code analysis</a> to detect bugs and focuses on detecting undefined behaviour and
 dangerous coding constructs. The goal is to have very few false positives.
-Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects) and runs on
-arbitrary platforms.
+Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects).
 </p>
 
 <h2 id="download">Download</h2>
