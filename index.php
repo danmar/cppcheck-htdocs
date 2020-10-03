@@ -59,7 +59,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.0</h3>
+<h3>Cppcheck 2.2</h3>
 <table width="50%" class="table">
   <tr>
     <th width="75%">Platform</th>
@@ -67,15 +67,15 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.0/cppcheck-2.0-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.2/cppcheck-2.2-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.0.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.2.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.0.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.2.tar.gz">Archive</a></td>
   </tr>
 </table>
 
