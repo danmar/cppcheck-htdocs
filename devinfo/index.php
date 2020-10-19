@@ -104,6 +104,7 @@ the latest sources in a zip or tgz archive</a> from the github website.</p>
 <h2 id="other">Other</h2>
 <ul>
   <li><a href="coverage_report/">Coverage report</a></li>
+  <li><a hre="https://codecov.io/gh/danmar/cppcheck">Alternative Coverage site</a></li>
   <li><a href="cpd.txt">CPD - copy pasted code</a></li>
   <li><a href="keywords.txt">Trac keywords</a></li>
 </ul>
