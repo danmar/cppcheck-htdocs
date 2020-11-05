@@ -76,7 +76,7 @@
 7.1     X (Addon)
 7.2     
 7.3     X (Addon)
-7.4     
+7.4     X (Addon)
 8.1     
 8.2     
 8.3     X (Cppcheck)
