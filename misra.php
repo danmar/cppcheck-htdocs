@@ -71,12 +71,12 @@
 5.7     
 5.8     
 5.9     
-6.1     
-6.2     
+6.1     X (Addon)
+6.2     X (Addon)
 7.1     X (Addon)
-7.2     
+7.2     X (Addon)
 7.3     X (Addon)
-7.4     
+7.4     X (Addon)
 8.1     
 8.2     
 8.3     X (Cppcheck)
@@ -92,12 +92,12 @@
 8.13    
 8.14    X (Addon)
 9.1     
-9.2     
+9.2     X (Addon)
 9.3     
 9.4     
 9.5     X (Addon)
 10.1    X (Addon)
-10.2    
+10.2    X (Addon)
 10.3    
 10.4    X (Addon)
 10.5    
@@ -121,7 +121,7 @@
 13.2    X (Cppcheck)
 13.3    X (Addon)
 13.4    X (Addon)
-13.5    X (Addon)
+13.5
 13.6    X (Addon)
 14.1    X (Addon)
 14.2    X (Addon)
@@ -130,7 +130,7 @@
 15.1    X (Addon)
 15.2    X (Addon)
 15.3    X (Addon)
-15.4    
+15.4    X (Addon)
 15.5    X (Addon)
 15.6    X (Addon)
 15.7    X (Addon)
