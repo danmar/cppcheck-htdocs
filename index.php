@@ -194,7 +194,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <h2>Clients and plugins</h2>
 <p>Cppcheck is integrated with many popular development tools. For instance:</p>
 <ul>
-  <li><strong>Buildbot</strong> - <a href="https://docs.buildbot.net/latest/manual/configuration/buildsteps.html#cppcheck">integrated</a></li>
+  <li><strong>Buildbot</strong> - <a href="https://docs.buildbot.net/latest/manual/configuration/steps/cppcheck.html">integrated</a></li>
   <li><strong>CLion</strong> - <a href="https://plugins.jetbrains.com/plugin/8143">Cppcheck plugin</a></li>
   <li><strong>Code::Blocks</strong> - <em>integrated</em></li>
   <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
