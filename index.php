@@ -245,7 +245,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <h2 id="support">Support</h2>
 <ul>
   <li>Use <a href="http://trac.cppcheck.net">Trac</a> to report bugs and feature requests</li>
-  <li>Ask questions at the IRC channel <a href="irc://irc.freenode.net/#cppcheck">#cppcheck</a></li>
+  <li>Ask questions at the IRC channel <a href="irc://irc.libera.chat/#cppcheck">#cppcheck</a></li>
 </ul>
 
 <h2 id="donate">Donate CPU</h2>
