@@ -9,7 +9,6 @@ rm .gitattributes
 rm .gitignore
 rm LICENSE
 rm README.md
-rm Readme.md
 rm upload.sh
 
 scp -r . $1,cppcheck@web.sf.net:htdocs/
