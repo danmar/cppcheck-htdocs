@@ -68,6 +68,8 @@ cppcheck git repository</a>.</p>
 <pre class="cmd">svn checkout https://github.com/danmar/cppcheck/trunk</pre>
 <p>You can also <a href="https://github.com/danmar/cppcheck/releases">download
 the latest sources in a zip or tgz archive</a> from the github website.</p>
+<h3>Formatting</h3>
+<p>We use <a href="https://github.com/uncrustify/uncrustify/releases/tag/uncrustify-0.72.0">uncrustify-0.72</a> to format Cppcheck source code.</p>
 <h3>Recent Commits</h3>
 <div id="github-commits"><a href="https://github.com/danmar/cppcheck/commits/master">View recent commits&hellip;</a></div>
 <p><a href="https://github.com/danmar/cppcheck/commits/master">View all commits&hellip;</a></p>
