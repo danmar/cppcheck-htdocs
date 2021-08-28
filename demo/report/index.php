@@ -24,7 +24,7 @@
 
     $context = stream_context_create($opts);
 
-    return @file_get_contents('http://cppcheck.sourceforge.net/cgi-bin/democlient.cgi', false, $context);
+    return @file_get_contents('https://cppcheck.sourceforge.io/cgi-bin/democlient.cgi', false, $context);
   }
 
   function cut_string($string, $length = 1024) {
