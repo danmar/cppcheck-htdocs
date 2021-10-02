@@ -59,7 +59,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.5</h3>
+<h3>Cppcheck 2.6</h3>
 <table width="50%" class="table">
   <tr>
     <th width="75%">Platform</th>
@@ -67,15 +67,15 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.5/cppcheck-2.5-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.6/cppcheck-2.6-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.5.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.6.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.5.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.6.tar.gz">Archive</a></td>
   </tr>
 </table>
 
@@ -285,15 +285,6 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <dd>Write better documentation for the bugs we find. Currently only a few bugs
   have any documentation at all.</dd>
 </dl>
-
-<h2 id="paying">Paying us to develop feature(s)</h2>
-<p>
-The Cppcheck team would be happy to implement features for you if you pay us. Both fixed price and variable price is possible.
-</p>
-
-<p>
-For this task, the Cppcheck-team is the best possible team imaginable in the world. We have better knowledge about Cppcheck than anybody else in the world and have unique positions in the project.
-</p>
 
 </div> <!-- .wrap -->
 </div> <!-- #content -->
