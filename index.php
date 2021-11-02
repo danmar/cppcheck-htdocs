@@ -92,7 +92,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   <li>Currently, Cppcheck Premium only includes a Windows installer. Feel free to contact us if you want Linux binaries.</li>
 </ul>
 
-<p>Cppcheck Premium features that will come soon:</p>
+<p>More Cppcheck Premium features are coming, for example:</p>
 <ul>
   <li>Detect more memory errors and other undefined behavior</li>
   <li>Misra rule texts</li>
