@@ -99,7 +99,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   <li>Improved Clang import</li>
 </ul>
 
-<p>Cppcheck Premium is developed by the swedish company Cppcheck Solutions AB. Cppcheck Solutions AB has ambitious goals for Cppcheck and will actively contribute to the open source Cppcheck project.</p>
+<p>Cppcheck Premium is developed by the Swedish company Cppcheck Solutions AB. Cppcheck Solutions AB has ambitious goals for Cppcheck and will actively contribute to the open source Cppcheck project.</p>
 
 <p>To get Cppcheck Premium, contact <a href="mailto:sales@cppchecksolutions.com">sales@cppchecksolutions.com</a></p>
 
