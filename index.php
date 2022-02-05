@@ -58,7 +58,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.6</h3>
+<h3>Cppcheck 2.7</h3>
 <table width="80%" class="table" >
   <tr>
     <th width="75%">Platform</th>
@@ -66,7 +66,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.6/cppcheck-2.6-x64-Setup.msi">Open source</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.7/cppcheck-2.7-x64-Setup.msi">Open source</a></td>
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
@@ -74,11 +74,11 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.6.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.7.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.6.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.7.tar.gz">Archive</a></td>
   </tr>
 </table>
 
@@ -87,19 +87,14 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 <p>There is a Premium edition that contains:</p>
 <ul>
   <li>Open source command line Cppcheck tool</li>
-  <li>Analysis: Extra checking for memory errors, diagnoses one of the bugs reported in CVE-2019-15048.</li>
-  <li>Security: Binaries and installer are signed using an organization certificate. This removes the  "Unknown Publisher" warning.</li>
-  <li>Currently, Cppcheck Premium only includes a Windows installer. Feel free to contact us if you want Linux binaries.</li>
-</ul>
-
-<p>More Cppcheck Premium features are coming, for example:</p>
-<ul>
-  <li>Detect more memory errors and other undefined behavior</li>
   <li>Misra rule texts</li>
-  <li>Improved Clang import</li>
+  <li>Analysis: Detect more uninitialized variables.</li>
+  <li>Analysis: Detect infinite loops.</li>
+  <li>Analysis: Buffer overflow; protection condition should be tweaked to prevent undefined behaviour. CVE-2019-15048.</li>
+  <li>Security: Binaries and installer are signed using an organization certificate. This removes the  "Unknown Publisher" warning.</li>
 </ul>
 
-<p>Cppcheck Premium is developed by the Swedish company Cppcheck Solutions AB. Cppcheck Solutions AB has ambitious goals for Cppcheck and will actively contribute to the open source Cppcheck project.</p>
+<p>Cppcheck Premium is developed by the Swedish company <a href="https://www.cppchecksolutions.com">Cppcheck Solutions AB</a>. Cppcheck Solutions AB has ambitious goals for Cppcheck and will actively contribute to the open source Cppcheck project.</p>
 
 <p>To get Cppcheck Premium, contact <a href="mailto:sales@cppchecksolutions.com">sales@cppchecksolutions.com</a></p>
 
