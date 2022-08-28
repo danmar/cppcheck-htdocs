@@ -58,7 +58,10 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.8</h3>
+<h3>Open Source vs Premium</h3>
+<p>There is an open source edition and a premium edition. If you want to have a tool that is free to use then the open source edition will work well for you. The premium edition costs money however it has extra features. To read more about the premium edition go to <a href="https://www.cppchecksolutions.com">Cppcheck Solutions AB</a>.</p>
+
+<h3>Cppcheck 2.9 (open source)</h3>
 <table width="80%" class="table" >
   <tr>
     <th width="75%">Platform</th>
@@ -66,37 +69,17 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.8/cppcheck-2.8-x64-Setup.msi">Open source</a></td>
-  </tr>
-  <tr>
-    <td>Windows 64-bit (No XP support)</td>
-    <td><a href="#premium">Premium</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.9/cppcheck-2.9-x64-Setup.msi">Open source</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.8.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.9.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.8.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.9.tar.gz">Archive</a></td>
   </tr>
 </table>
-
-<h3 id="premium">Cppcheck Premium</h3>
-
-<p>There is a Premium edition that contains:</p>
-<ul>
-  <li>Open source command line Cppcheck tool</li>
-  <li>Misra rule texts</li>
-  <li>Analysis: Detect more uninitialized variables.</li>
-  <li>Analysis: Detect infinite loops.</li>
-  <li>Analysis: Buffer overflow; protection condition should be tweaked to prevent undefined behaviour. CVE-2019-15048.</li>
-  <li>Security: Binaries and installer are signed using an organization certificate. This removes the  "Unknown Publisher" warning.</li>
-</ul>
-
-<p>Cppcheck Premium is developed by the Swedish company <a href="https://www.cppchecksolutions.com">Cppcheck Solutions AB</a>. Cppcheck Solutions AB has ambitious goals for Cppcheck and will actively contribute to the open source Cppcheck project.</p>
-
-<p>To get Cppcheck Premium, contact <a href="mailto:sales@cppchecksolutions.com">sales@cppchecksolutions.com</a></p>
 
 <h3>Packages</h3>
 <p>Cppcheck can also be installed from various package managers; however, you might get an outdated version then.</p>
