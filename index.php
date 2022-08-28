@@ -56,10 +56,9 @@ dangerous coding constructs. The goal is to have very few false positives.
 Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects).
 </p>
 
-<h2 id="download">Download</h2>
+<p>Cppcheck is available both as open-source (this page) and as Cppcheck Premium with extended functionality and support. Please visit <a href="https://www.cppchecksolusions.com">www.cppchecksolusions.com</a> for more information and purchase options for the commercial version.</p>
 
-<h3>Open Source vs Premium</h3>
-<p>There is an open source edition and a premium edition. If you want to have a tool that is free to use then the open source edition will work well for you. The premium edition costs money however it has extra features. To read more about the premium edition go to <a href="https://www.cppchecksolutions.com">Cppcheck Solutions AB</a>.</p>
+<h2 id="download">Download</h2>
 
 <h3>Cppcheck 2.9 (open source)</h3>
 <table width="80%" class="table" >
@@ -187,8 +186,10 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
 
 <h3 id="coding-standards">Coding standards</h3>
-<p>Cert: A few checkers available in addon.</p>
-<p>Misra: <a href="misra.php">Feature matrix</a>.</p>
+<p>Misra C 2012: Full coverage in open source tool.</p>
+<p>Autosar: Partial coverage in Cppcheck Premium.</p>
+<p>Cert C: Full coverage in Cppcheck Premium.</p>
+<p>Misra C++ 2008: Partial coverage in Cppcheck Premium.</p>
 
 <h3>All checks</h3>
 <p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
