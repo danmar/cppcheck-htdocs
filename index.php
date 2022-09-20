@@ -56,7 +56,7 @@ dangerous coding constructs. The goal is to have very few false positives.
 Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects).
 </p>
 
-<p>Cppcheck is available both as open-source (this page) and as Cppcheck Premium with extended functionality and support. Please visit <a href="https://www.cppchecksolusions.com">www.cppchecksolusions.com</a> for more information and purchase options for the commercial version.</p>
+<p><b>Cppcheck</b> is available both as open-source (this page) and as <b>Cppcheck Premium</b> with extended functionality and support. Please visit <a href="https://www.cppchecksolutions.com">www.cppchecksolutions.com</a> for more information and purchase options for the commercial version.</p>
 
 <h2 id="download">Download</h2>
 
@@ -68,7 +68,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.9/cppcheck-2.9-x64-Setup.msi">Open source</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.9/cppcheck-2.9-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
