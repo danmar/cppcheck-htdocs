@@ -320,7 +320,7 @@ function getUserIP()
     return $ip;
 }
 
-$t = date("Y-m-d h:i:s");
+$t = date("Y-m-d H:i:s");
 $ip = getUserIP();
 
 $file = fopen("ip.txt","a");
