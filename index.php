@@ -60,7 +60,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.9 (open source)</h3>
+<h3>Cppcheck 2.10 (open source)</h3>
 <table width="80%" class="table" >
   <tr>
     <th width="75%">Platform</th>
@@ -68,15 +68,15 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.9/cppcheck-2.9-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.10/cppcheck-2.10-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.9.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.10.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.9.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.10.tar.gz">Archive</a></td>
   </tr>
 </table>
 
@@ -186,10 +186,22 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <p>Security experts recommend that static analysis is used. And using several tools is the best approach from a security perspective.</p>
 
 <h3 id="coding-standards">Coding standards</h3>
-<p>Misra C 2012: Full coverage in open source tool.</p>
-<p>Autosar: Partial coverage in Cppcheck Premium.</p>
-<p>Cert C: Full coverage in Cppcheck Premium.</p>
-<p>Misra C++ 2008: Partial coverage in Cppcheck Premium.</p>
+<table border="1" bgcolor="white">
+<tr><th>Coding standard<th><th>&nbsp;Open Source&nbsp;</th><th>&nbsp;Premium&nbsp;</th></tr>
+<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #3&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #4&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - Rule texts&nbsp;<td><td>&nbsp;User provided</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2023&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C++ 2008&nbsp;<td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/misracpp2008.html">Partial</a></td></tr>
+<tr><td>&nbsp;Cert C&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Cert C++&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Autosar&nbsp;<td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
+</table>
+
 
 <h3>All checks</h3>
 <p>For a list of all checks in Cppcheck see: <a href="http://sourceforge.net/p/cppcheck/wiki/ListOfChecks">http://sourceforge.net/p/cppcheck/wiki/ListOfChecks</a>.</p>
