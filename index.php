@@ -68,15 +68,15 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
   </tr>
   <tr>
     <td>Windows 64-bit (No XP support)</td>
-    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.12.0/cppcheck-2.12.0-x64-Setup.msi">Installer</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/releases/download/2.13.0/cppcheck-2.13.0-x64-Setup.msi">Installer</a></td>
   </tr>
   <tr>
     <td>Source code (.zip)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.12.0.zip">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.13.0.zip">Archive</a></td>
   </tr>
   <tr>
     <td>Source code (.tar.gz)</td>
-    <td><a href="https://github.com/danmar/cppcheck/archive/2.12.0.tar.gz">Archive</a></td>
+    <td><a href="https://github.com/danmar/cppcheck/archive/2.13.0.tar.gz">Archive</a></td>
   </tr>
 </table>
 
@@ -196,7 +196,8 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Misra C 2012 - Rule texts&nbsp;<td><td>&nbsp;User provided</td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Misra C 2023&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C++ 2008&nbsp;<td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/misracpp2008.html">Partial</a></td></tr>
+<tr><td>&nbsp;Misra C++ 2008&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C++ 2023&nbsp;<td><td></td><td>&nbsp;Work in progress&nbsp;</td></tr>
 <tr><td>&nbsp;Cert C&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Cert C++&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Autosar&nbsp;<td><td></td><td>&nbsp;<a href="https://files.cppchecksolutions.com/autosar.html">Partial</a></td></tr>
