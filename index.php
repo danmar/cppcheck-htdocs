@@ -60,7 +60,7 @@ Cppcheck is designed to be able to analyze your C/C++ code even if it has non-st
 
 <h2 id="download">Download</h2>
 
-<h3>Cppcheck 2.12 (open source)</h3>
+<h3>Cppcheck 2.13 (open source)</h3>
 <table width="80%" class="table" >
   <tr>
     <th width="75%">Platform</th>
