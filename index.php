@@ -226,6 +226,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>QtCreator</strong> - <a href="https://sourceforge.net/projects/qtprojecttool/files">Qt Project Tool (qpt)</a></li>
   <li><strong>Tortoise SVN</strong> - <a href="http://omerez.com/automatic-static-code-analysis/">Adding a pre-commit hook script</a></li>
   <li><strong>Visual Studio</strong> - <a href="https://github.com/VioletGiraffe/cppcheck-vs-addin/releases/latest">Visual Studio plugin</a></li>
+  <li><strong>VScode</strong> - <a href="https://marketplace.visualstudio.com/items?itemName=NathanJ.cppcheck-plugin">VScode plugin</a></li>
 </ul>
 
 <h2>Other static analysis tools</h2>
