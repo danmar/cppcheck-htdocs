@@ -188,9 +188,9 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
 <h3 id="coding-standards">Coding standards</h3>
 <table border="1" bgcolor="white">
 <tr><th>Coding standard<th><th>&nbsp;Open Source&nbsp;</th><th>&nbsp;Premium&nbsp;</th></tr>
-<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
-<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;<td><td>&nbsp;Yes</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - original rules&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #1&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
+<tr><td>&nbsp;Misra C 2012 - amendment #2&nbsp;<td><td>&nbsp;Partial</td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Misra C 2012 - amendment #3&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Misra C 2012 - amendment #4&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
 <tr><td>&nbsp;Misra C 2012 - Compliance report&nbsp;<td><td></td><td>&nbsp;Yes</td></tr>
@@ -216,7 +216,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   <li><strong>CodeDX</strong> (software assurance tool) - <a href="http://codedx.com/code-dx-standard/">integrated</a></li>
   <li><strong>CodeLite</strong> - <em>integrated</em></li>
   <li><strong>CppDepend 5</strong> - <a href="http://www.cppdepend.com/CppDependV5.aspx">integrated</a></li>
-  <li><strong>Eclipse</strong> - <a href="https://github.com/kwin/cppcheclipse/wiki/Installation">Cppcheclipse</a></li>
+  <li><strong>Eclipse</strong> - <a href="https://github.com/cppchecksolutions/cppcheclipse/wiki/Installation">Cppcheclipse</a></li>
   <li><strong>gedit</strong> - <a href="http://github.com/odamite/gedit-cppcheck">gedit plugin</a></li>
   <li><strong>github</strong> - <a href="https://www.codacy.com/">Codacy</a> and <a href="http://www.softacheck.com/">SoftaCheck</a></li>
   <li><strong>Hudson</strong> - <a href="http://wiki.hudson-ci.org/display/HUDSON/Cppcheck+Plugin">Cppcheck Plugin</a></li>
