@@ -56,7 +56,7 @@ dangerous coding constructs. The goal is to have very few false positives.
 Cppcheck is designed to be able to analyze your C/C++ code even if it has non-standard syntax (common in embedded projects).
 </p>
 
-<p><b>Cppcheck</b> is available both as open-source (this page) and as <b>Cppcheck Premium</b> with extended functionality and support. Please visit <a href="https://www.cppchecksolutions.com">www.cppchecksolutions.com</a> for more information and purchase options for the commercial version.</p>
+<p><b>Cppcheck</b> is available both as open-source (this page) and as <b>Cppcheck Premium</b> with extended functionality and support. Please visit <a href="https://www.cppcheck.com?utm_source=sourceforge&utm_medium=opensource&utm_campaign=websitelink">www.cppcheck.com</a> for more information and purchase options for the commercial version.</p>
 
 <h2 id="download">Download</h2>
 
