@@ -244,7 +244,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   require './site/simplepie/simplepie.php';
 
   $feed = new SimplePie();
-  $feed->set_feed_url('http://sourceforge.net/p/cppcheck/news/feed');
+  $feed->set_feed_url('https://sourceforge.net/p/cppcheck/news/feed');
   $feed->set_cache_location('./site/simplepie/cache');
   $feed->init();
   print("<ul class=\"rssfeeditems\">\n");
@@ -253,7 +253,7 @@ This has been described in a few articles (<a href="https://www.theregister.co.u
   }
   print("</ul>\n");
 ?>
-<p><a href="http://sourceforge.net/p/cppcheck/news/">View all news&hellip;</a></p>
+<p><a href="https://sourceforge.net/p/cppcheck/news/">View all news&hellip;</a></p>
 
 <h2 id="documentation">Documentation</h2>
 <p>You can read the <a href="manual.pdf">manual</a> or download some
